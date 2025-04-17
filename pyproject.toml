@@ -1,0 +1,15 @@
+[project]
+name = "website-summarizer"
+version = "0.1.0"
+description = "A FASTHTML + Ollama-powered website summarizer"
+authors = [{name = "Ayushi"}]
+dependencies = [
+    "python-fasthtml",
+    "ollama",
+    "httpx",
+    "beautifulsoup4"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
