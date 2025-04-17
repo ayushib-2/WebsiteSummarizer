@@ -1,0 +1,6 @@
+requests
+python-fasthtml
+ollama
+httpx
+beautifulsoup4
+IPython

@@ -4,10 +4,12 @@ version = "0.1.0"
 description = "A FASTHTML + Ollama-powered website summarizer"
 authors = [{name = "Ayushi"}]
 dependencies = [
+    "requests",
     "python-fasthtml",
     "ollama",
     "httpx",
-    "beautifulsoup4"
+    "beautifulsoup4",
+    "IPython"
 ]
 
 [build-system]

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+app/__init__.py
+app/logic.py
+app/ui.py
+website_summarizer.egg-info/PKG-INFO
+website_summarizer.egg-info/SOURCES.txt
+website_summarizer.egg-info/dependency_links.txt
+website_summarizer.egg-info/requires.txt
+website_summarizer.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: website-summarizer
+Version: 0.1.0
+Summary: A FASTHTML + Ollama-powered website summarizer
+Author: Ayushi
+Requires-Dist: requests
+Requires-Dist: python-fasthtml
+Requires-Dist: ollama
+Requires-Dist: httpx
+Requires-Dist: beautifulsoup4
+Requires-Dist: IPython
