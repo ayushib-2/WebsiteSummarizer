@@ -43,8 +43,4 @@ def summarize(url):
     response = ollama.chat(model=MODEL, messages=messages_for(website))
     return response['message']['content']
 
-def display_summary(url):
-    summary = summarize(url)
-    display(Markdown(summary))
 
-display_summary("https://edwarddonner.com")
